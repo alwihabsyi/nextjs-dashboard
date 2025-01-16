@@ -1,9 +1,8 @@
-import React, { lazy, Suspense } from "react";
+import React, { Suspense } from "react";
 import { lusitana } from "../../ui/fonts";
-import { fetchCardData } from "../../lib/data";
 import RevenueChart from "../../ui/dashboard/revenue-chart";
 import LatestInvoices from "../../ui/dashboard/latest-invoices";
-import CardWrapper, { Card } from "../../ui/dashboard/cards";
+import CardWrapper from "../../ui/dashboard/cards";
 import { LatestInvoicesSkeleton, RevenueChartSkeleton, CardSkeleton } from "@/app/ui/skeletons";
 
 async function DashboardPage() {
